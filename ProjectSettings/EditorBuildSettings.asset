@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Castle.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Path.unity
+    guid: 3dc9e68e1e7484c44bcb6a8f334da95e
+  - enabled: 1
+    path: Assets/Scenes/BatAttackZone.unity
+    guid: 92788b07dd6d7244c87d771e6fcddb42
+  - enabled: 1
+    path: Assets/Scenes/Graveyard.unity
+    guid: 13713830ec828bb4b9628a04ba87a45b
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0
