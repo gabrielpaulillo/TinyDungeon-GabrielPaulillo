@@ -1,2 +1,28 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Unity specific rules for Linguist (GitHub language detection)
+
+# Ignore common Unity asset files and generated files from language stats
+*.unity linguist-generated
+*.prefab linguist-generated
+*.mat linguist-generated
+*.asset linguist-generated
+*.meta linguist-generated
+*.controller linguist-generated
+*.mixer linguist-generated
+*.mask linguist-generated
+*.anim linguist-generated
+*.flare linguist-generated
+*.physicmaterial linguist-generated
+*.playable linguist-generated
+*.rendertexture linguist-generated
+*.guiskin linguist-generated
+*.fontsettings linguist-generated
+
+# Do not count ShaderLab files towards language statistics
+*.shader linguist-detectable=false
+*.cginc linguist-detectable=false
+
+# Explicitly ensure C# files are detected as C# (usually default, but good for certainty)
+*.cs linguist-language=C#
